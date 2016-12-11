@@ -87,7 +87,7 @@
 					</div>
 
 					<div class="item">
-					<a href="#" style="color:white; font-weight:500; font-size:15px; margin-right:200px;">LOGIN</a>
+					<button class="ui button" style="color:white; font-weight:500; font-size:15px; margin-right:200px;"">LOGIN</button>
 					</div>
 
 				</div>
@@ -141,6 +141,69 @@
 		</div>
 
 	</div>
+
+<!-- modal log in -->
+
+	<div class="ui test modal" style=" width: 35%; margin-left: -222px; margin-top: -190.992px; display: block !important;">
+
+		<div class="actions">
+	    <div class="header" style="text-align: center; color: purple;">
+	      Sign in with your account
+
+	      
+
+					      <div class="ui red deny icon button" style=" position: relative; right:-30%; padding: 5px 5px 5px 5px;">
+					        <i class="remove icon"></i>
+					      </div>
+
+		   </div>
+	    </div>
+
+
+
+	    	 	
+	    	
+
+	    <div class="form content">
+		      
+			<div class="ui input" style="margin-left: 17%; width: 70%;">
+		  		<input type="text" placeholder="Username">
+			</div>
+
+			<div class="ui input" style="margin-top: 6%; margin-left: 17%; width: 70%">
+		  		<input type="text" placeholder="Password">
+			</div>
+
+			<div style=" margin-left: 17%;; font-size: 20px;">
+				<button class="ui purple button" style="width: 45%;">SIGN IN</button>
+				or
+				<a href="">
+					<img src="Assets/purpleF.png" style="width: 15%; position: relative; top:22px;">
+				</a>
+
+				<a href="">
+					<img src="Assets/google+.png" style="width: 15%; position: relative; top:22px;">
+				</a>
+
+			</div>
+
+			<div class="ui checkbox" style="margin-left: 17%; margin-top: 7%;">
+		        <input type="checkbox" name="example" tabindex="0" class="hidden">
+		        <label style="color: purple;">Remember Me
+
+		        	<a href="" style="color: purple; margin-left: 80px;">Forgot Password?</a>
+		        </label>
+
+		        <br />
+		        <br />
+
+		        <a href="" style="color: purple; margin-left: 80px; margin-top:50px;">Create an ACcount</a>
+	      </div>
+
+	    </div>
+	   
+
+	  </div>
 
 <!--  SECOND CONTENT-->
 	<div class="ui grid" style="margin: 0% 0% 0% 0%;">
@@ -352,66 +415,72 @@
 
 
 <!-- footer -->
-		<div style="background-color: grey; width: 100%; height: 70%;">
+	<div style="background-color: grey; width: 100%; height: 60%; margin-top: 4%;">
 
-			<div class="ui fluid action input" style="margin-left: 28%;">
+		<div class="ui fluid action input" style="margin-left: 28%;">
 
 		      <input type="text" placeholder="Search..." style="margin-top: 7%;">
 
 		      <div class="ui violet button" style="margin-top: 7%; margin-right: 35%;">Submit</div>
 
-	    	</div>
-	    		
-	    	<div class="ui grid">
+	    </div>
 
-	    		<div class="three wide column"></div>
+	    <div class="ui grid">
 
-	    		<div class="six wide column">
-		    		<div style="text-align: left;margin-top: 14%;">
+	    	<div class="three wide column"></div>
+
+	    	<div class="five wide column">
+
+	    		<div style="text-align: left;margin-top: 14%;">
 		    			<a href="" style="color:white; font-size: 20px;">Home</a>
 		    		
 		    			<a href="" style="color:white; font-size: 20px; margin-left: 13%; ">FAQ</a>
 		    		
 		    			<a href="" style="color:white; font-size: 20px; margin-left: 22%;">REGISTER</a>
-		    		</div>
-		    	
+		    	</div>
 
+		    	<div style="text-align: left;margin-top: 10%;">
 
-	    	   		<div style="text-align: left;margin-top: 10%;">
 		    			<a href="" style="color:white; font-size: 20px;">Features</a>
 		    		
 		    			<a href="" style="color:white; font-size: 20px; margin-left: 7%;">Support</a>
 		    		
 		    			<a href="" style="color:white; font-size: 20px; margin-left: 17%;">Login</a>
-		    		</div>
-
-		    		<div style="text-align: left;margin-top: 10%;">
-		    			<a href="" style="color:white; font-size: 20px;">Plans</a>
-		    		
-		    			<a href="" style="color:white; font-size: 20px; margin-left: 14%;">Contract Sales</a>
-		    		
-		    			
-		    		</div>
-
 		    	</div>
 
-		    	<div class="six wide column" style="margin-top: 5%;">
-
-		    		<img src="Assets/facebook.png" style="height: 10%; ">
-
-		    		<img src="Assets/twitter.png" style="height: 10%;">
-		    		<img src="Assets/instagram.png" style="height: 10%;">
-
-		    	</div>
+	    		<div style="text-align: left;margin-top: 10%;">
+	    			<a href="" style="color:white; font-size: 20px;">Plans</a>
+	    		
+	    			<a href="" style="color:white; font-size: 20px; margin-left: 14%;">Contract Sales</a>
+	    		</div>
 
 	    	</div>
-	 
+
+	    	<div class="five wide column" style="margin-top: 5%;">
 
 
-		
-			</div>
+	    			<img src="Assets/facebook.png" height="50">
 
-		</div>
+		    		<img src="Assets/twitter.png" height="50" style="margin-left: 5%;">
+
+		    		<img src="Assets/instagram.png" height="50" style="margin-left: 5%;" ">
+
+
+	    		</div>
+
+	    </div>
+
+	</div>
+
+<!-- modal script -->
+	<script>
+	
+		$('.test.modal')
+		  .modal('attach events', '.ui.button', 'show')
+		;
+	</script>
+
+
 
 </body>
 

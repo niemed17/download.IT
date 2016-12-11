@@ -11,8 +11,10 @@
 				<title>Home</title>
 
 				<link rel = "stylesheet" type = "text/css" href="libraries/semantic/semantic.min.css">
+				<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
 				<link rel="stylesheet" type="text/css" href="Libraries/semantic_ui_css.css">
 				<link rel="stylesheet" type="text/css" href="Libraries/semantic_ui_modal.css">
+			
 				<script src="libraries/semantic/semantic.js"></script>
 				<script src="libraries/semantic/semantic.min.js"></script>
 				<script src="Libraries/jquery_1.11.1.js"></script>
@@ -21,44 +23,85 @@
 
 				<style>
 
-					*{ font-family: 'Gotham'; }
+					*{
+		font-family: 'Open Sans', sans-serif;
+	}
+					body {
+					  text-align: center;
+					 }
 
+
+					 #img {
+					width: 100%;
+					height: 500px;
+					background-image: url('Assets/yeah.jpg');
+					background-size: 100% 100%;
+					border: 1px solid red;
+}						
 				</style>
 
 		</head>
 
-		<body>
+				
+				
+<body>
+  
+		<div class="ui fixed menu" id="page-wrap" style="background-color:rgba(127,64,136,0.8);">
 
-			<div class="ui inverted menu">
-			  <div class="header item">Brand</div>
-			  <div class="active item">Link</div>
-			  <a class="item">Link</a>
-			  <div class="ui dropdown item" tabindex="0">
-			    Dropdown
-			    <i class="dropdown icon"></i>
-			    <div class="menu transition hidden" tabindex="-1">
-			      <div class="item">Action</div>
-			      <div class="item">Another Action</div>
-			      <div class="item">Something else here</div>
-			      <div class="divider"></div>
-			      <div class="item">Separated Link</div>
-			      <div class="divider"></div>
-			      <div class="item">One more separated link</div>
-			    </div>
-			  </div>
-			  <div class="right menu">
-			    <div class="item">
-			      <div class="ui transparent inverted icon input">
-			        <i class="search icon"></i>
-			        <input type="text" placeholder="Search">
-			      </div>
-			    </div>
-			    <a class="item">Link</a>
-			  </div>
+				
+			<div class="ui secondary menu">
+
+				<img src="assets/download.png" style="margin-top:15px; margin-left:200px; height: 30px; width: 30px;">
+
+				<div  style=" margin-top: 15px; margin-left: 10px; color: white;" >
+								<p style="font-size:20px; font-weight: 500;">DOWNLOAD.IT</p>
+
+				</div>
+
 			</div>
 
+			<div class="ui right secondary menu" style="text-align: right; margin-top: 19px;">
+				<a href="#" style="color:white; font-weight:500; font-size:15px; margin-right: 50px;">FEATURES</a>
+				<a href="#" style="color:white; font-weight:500; font-size:15px; margin-right: 50px;">PLANS</a>
+				<a href="#" style="color:white; font-weight:500; font-size:15px; margin-right:200px;">LOGIN</a>
+			</div>
+				
+		</div>
 
-		</body>
+
+
+					<div >
+
+					<div id="img">
+					<p style="font-weight: 700;  font-size: 30px;  color:white; text-align: center; position:relative; top:110px;">TRANSFER YOUR FILES EASILY, FAST AND SECURE</p>
+					<p style="font-weight: 500;  font-size: 20px;  color:white; text-align: center; position:relative; top:90px;">Access your files, anytime, anywhere with our revolutionary files platform</p>
+
+					</div>
+					
+							
+
+
+							
+					
+		   			</div>
+
+					
+
+
+
+
+  
+</body>
+
+						
+
+		
+		
+
+				
+			
+
+
 
 
 	</html>

@@ -9,7 +9,6 @@
 		 	<meta charset = "utf-8">
 
 				<title>Home</title>
-
 				<link rel = "stylesheet" type = "text/css" href="libraries/semantic/semantic.min.css">
 				<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
 				<link rel="stylesheet" type="text/css" href="Libraries/semantic_ui_css.css">
@@ -28,7 +27,7 @@
 						font-family: 'Gotham',;
 
 					}
-					.body {
+					.bd {
 
 				 		 text-align: center;
 						 width: 100%;
@@ -37,6 +36,16 @@
 						 background-size: 100% 100%;
 					     background-repeat: no-repeat;
 					 
+					 }
+
+					 .bg{
+
+					 	text-align: center;
+					 	background-image: url('Assets/violet.jpg');
+					 	background-size: 100% 100%;
+					 	width: 100%;
+						height: 360px;
+
 					 }
 
 
@@ -49,7 +58,8 @@
 				
 <body>
   
-	<div class="body">
+<!-- TOP NAVIGATION AND CONTENT-->
+	<div class="bd">
 		
 		<div class="ui container">	
 
@@ -132,41 +142,41 @@
 
 	</div>
 
-
-<div class="ui grid" style="margin: 8% 0% 0% 0%;">
-
-	
-		<div class="one wide column"></div>
-			
-		
-		<div class="fourteen wide column" style="font-size: 20px; margin: 0% 10% 0% 14%;">
-			
-			<img src="Assets/laptop.jpg" style="height: 120%; float: right;">
-
-			<p style="margin-left: 7%;">Easy share, no hassle</p>
-			<p style="margin-left: 7%;">Download.it provides an easy  way to share<br />
-			 files, with a copy-paste link of your file URL,<br />
-			  you can easily share the link to anyone you<br />
-			  want to have access to the files</p>
-
-			  <div class="ui black basic button"  style="width: 20%; margin: 0% 0% 0% 7%;">Start Sharing</div> 
-			 
-		</div>
-
-		<div class="one wide column"></div>
-				
-		
-		
-	
-</div>
-
-	<div class="ui grid" style="margin: 8% 0% 0% 0%;">
+<!--  SECOND CONTENT-->
+	<div class="ui grid" style="margin: 0% 0% 0% 0%;">
 
 		
 			<div class="one wide column"></div>
 				
 			
-			<div class="fourteen wide column" style="font-size: 20px; margin: 0% 10% 0% 16%;">
+			<div class="fourteen wide column" style="font-size: 20px; margin: 10% 10% 0% 14%;">
+				
+				<img src="Assets/laptop.jpg" style="height: 120%; float: right;">
+
+				<p style="margin-left: 7%;">Easy share, no hassle</p>
+				<p style="margin-left: 7%;">Download.it provides an easy  way to share<br />
+				 files, with a copy-paste link of your file URL,<br />
+				  you can easily share the link to anyone you<br />
+				  want to have access to the files</p>
+
+				  <div class="ui violet basic button"  style="width: 20%; margin: 0% 0% 0% 7%;">Start Sharing</div> 
+				 
+			</div>
+
+			<div class="one wide column"></div>
+					
+			
+			
+		
+	</div>
+
+	<div class="ui grid" style="margin: 0% 0% 0% 0%;">
+
+		
+			<div class="one wide column"></div>
+				
+			
+			<div class="fourteen wide column" style="font-size: 20px; margin: 10% 0% 0% 16%;">
 				
 				<img src="Assets/iphone.png" style="height: 60%; float: left;">
 
@@ -176,17 +186,233 @@
 					functionality in one package, download our<br />
 					mobile application to experience.</p>
 
-				  <div class="ui black basic button"  style="width: 20%;">Download for Mobile </div> 
+				  <div class="ui violet basic button"  style="width: 20%;">Download for Mobile </div> 
 				 
 			</div>
 
-			<div class="one wide column"></div>
 
 	</div>
 
-  	<div class="ui grid">
-  		
-  	</div>
+<!-- 3RD CONTENT -->
+	<div class="bg">
+		
+		<div class="ui  grid">
+
+				
+				<div class="two wide column"></div>
+					
+				<div class="four wide column" >
+					
+					<p style="font-size: 30px; color: white;">File Conservation</p>
+					<p style="color:white; font-size: 15px;  margin-top: -8%;"> Set a time on how long the<br />
+						file will be available for download</p>
+
+				</div>
+
+				<div class="four wide column">
+					
+					<p style="font-size: 30px; color: white;">Categorization </p>
+					<p style="color:white; font-size: 15px;  margin-top: -8%;"> Arrange files by categories to keep<br />
+										them organized all the time</p>
+
+				</div>
+
+				<div class="four wide column">
+					
+					<p style="font-size: 30px; color: white;">File Version</p>
+					<p style="color:white; font-size: 15px;  margin-top: -8%;">Avoid confusions with files versions<br />
+						features, updates will be easier</p>
+
+				</div>
+				
+				<div class="two wide column"></div>
+
+			
+		</div>
+
+	</div>
+
+<!-- 4th content -->
+	
+	<p style="text-align: center; font-size: 45px; margin-top: 3%;">Why they love Download.it
+	</p>
+
+	<p style="text-align: center; font-size: 23px; margin-top: -3%;">Download.it has around 150,000,000 satisfied user's, here's why:</p>
+
+		<table class="ui very basic collapsing celled table" style="margin-left: auto; margin-right: auto;">
+	
+		  <tbody>
+
+			    <tr>
+
+				      <td>
+
+				        <h4 class="ui image header">
+
+				          <img src="Assets/boy_default.png" class="ui mini rounded image">
+
+				          <div class="content">
+
+				            <p>File sharings has never been this easy<br />
+				            	I don't even need to spend time to share<br />
+				            	my files, just drag and drop and then share the link
+				           </p>
+
+				            <div class="sub header">John Doe</div>
+
+				          <div class="sub header"> Ceo(Aws Company)</div>
+
+				       	 </div>
+
+				      	</h4>
+
+				     </td>
+
+				           <td>
+
+				        <h4 class="ui image header">
+
+				          <img src="Assets/boy_default.png" class="ui mini rounded image">
+
+				          <div class="content">
+
+				            <p>File sharings has never been this easy<br />
+				            	I don't even need to spend time to share<br />
+				            	my files, just drag and drop and then share the link
+				           </p>
+
+				            <div class="sub header">John Doe</div>
+
+				          <div class="sub header"> Ceo(Aws Company)</div>
+
+				       	 </div>
+
+				      	</h4>
+
+				     </td>
+
+				
+			    </tr>
+			    
+			     <tr>
+
+				      <td>
+
+				        <h4 class="ui image header">
+
+				          <img src="Assets/boy_default.png" class="ui mini rounded image">
+
+				          <div class="content">
+
+				            <p>File sharings has never been this easy<br />
+				            	I don't even need to spend time to share<br />
+				            	my files, just drag and drop and then share the link
+				           </p>
+
+				            <div class="sub header">John Doe</div>
+
+				          <div class="sub header"> Ceo(Aws Company)</div>
+
+				       	 </div>
+
+				      	</h4>
+
+				     </td>
+
+				           <td>
+
+				        <h4 class="ui image header">
+
+				          <img src="Assets/boy_default.png" class="ui mini rounded image">
+
+				          <div class="content">
+
+				            <p>File sharings has never been this easy<br />
+				            	I don't even need to spend time to share<br />
+				            	my files, just drag and drop and then share the link
+				           </p>
+
+				            <div class="sub header">John Doe</div>
+
+				          <div class="sub header"> Ceo(Aws Company)</div>
+
+				       	 </div>
+
+				      	</h4>
+
+				     </td>
+
+				
+			    </tr>
+			    
+
+		  </tbody>
+
+		</table>
+
+
+<!-- footer -->
+		<div style="background-color: grey; width: 100%; height: 70%;">
+
+			<div class="ui fluid action input" style="margin-left: 28%;">
+
+		      <input type="text" placeholder="Search..." style="margin-top: 7%;">
+
+		      <div class="ui violet button" style="margin-top: 7%; margin-right: 35%;">Submit</div>
+
+	    	</div>
+	    		
+	    	<div class="ui grid">
+
+	    		<div class="three wide column"></div>
+
+	    		<div class="six wide column">
+		    		<div style="text-align: left;margin-top: 14%;">
+		    			<a href="" style="color:white; font-size: 20px;">Home</a>
+		    		
+		    			<a href="" style="color:white; font-size: 20px; margin-left: 13%; ">FAQ</a>
+		    		
+		    			<a href="" style="color:white; font-size: 20px; margin-left: 22%;">REGISTER</a>
+		    		</div>
+		    	
+
+
+	    	   		<div style="text-align: left;margin-top: 10%;">
+		    			<a href="" style="color:white; font-size: 20px;">Features</a>
+		    		
+		    			<a href="" style="color:white; font-size: 20px; margin-left: 7%;">Support</a>
+		    		
+		    			<a href="" style="color:white; font-size: 20px; margin-left: 17%;">Login</a>
+		    		</div>
+
+		    		<div style="text-align: left;margin-top: 10%;">
+		    			<a href="" style="color:white; font-size: 20px;">Plans</a>
+		    		
+		    			<a href="" style="color:white; font-size: 20px; margin-left: 14%;">Contract Sales</a>
+		    		
+		    			
+		    		</div>
+
+		    	</div>
+
+		    	<div class="six wide column" style="margin-top: 5%;">
+
+		    		<img src="Assets/facebook.png" style="height: 10%; ">
+
+		    		<img src="Assets/twitter.png" style="height: 10%;">
+		    		<img src="Assets/instagram.png" style="height: 10%;">
+
+		    	</div>
+
+	    	</div>
+	 
+
+
+		
+			</div>
+
+		</div>
+
 </body>
 
 						

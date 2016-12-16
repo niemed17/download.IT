@@ -1,0 +1,39 @@
+<manifest alg="2" build="6" opt="false" iceEnabled="true" exportTarget="other" resolutions="1x" timestamp="1481903369623">
+  <folder name="css">
+    <file name="site_global.css" crc="426517801"/>
+    <file name="index.css" crc="4243706315" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="4021225061" ref="index"/>
+    <file name="museutils.js" crc="4136605575" ref="index"/>
+    <file name="jquery.watch.js" crc="172956391" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="u114-4.png" crc="7833344" ref="index"/>
+    <file name="upload butoon.png" crc="4175316397" ref="index"/>
+    <file name="u115-4.png" crc="4059733870" ref="index"/>
+    <file name="add category.png" crc="3935823577" ref="index"/>
+    <file name="u74-4.png" crc="18042394" ref="index"/>
+    <file name="u99-4.png" crc="4017014175" ref="index"/>
+    <file name="1480980960_file_5.png" crc="4224388134" ref="index"/>
+    <file name="u123-4.png" crc="3914499332" ref="index"/>
+    <file name="share_icon.png" crc="4046390634" ref="index"/>
+    <file name="send_icon.png" crc="4179153055" ref="index"/>
+    <file name="trash_icon.png" crc="488349629" ref="index"/>
+    <file name="u124-4.png" crc="4185383230" ref="index"/>
+    <file name="shape 1.jpg" crc="3887684066" ref="index"/>
+    <file name="u156-4.png" crc="3914499332" ref="index"/>
+    <file name="u157-4.png" crc="4185383230" ref="index"/>
+    <file name="u181-4.png" crc="3914499332" ref="index"/>
+    <file name="u180-4.png" crc="4185383230" ref="index"/>
+    <file name="folder icon.png" crc="3988963565" ref="index"/>
+    <file name="u209-4.png" crc="3914499332" ref="index"/>
+    <file name="u202-4.png" crc="388756272" ref="index"/>
+    <file name="u286-4.png" crc="3914499332" ref="index"/>
+    <file name="u287-4.png" crc="388756272" ref="index"/>
+    <file name="u302-4.png" crc="3914499332" ref="index"/>
+    <file name="u307-4.png" crc="388756272" ref="index"/>
+    <file name="drag and drop.jpg" crc="515432324" ref="index"/>
+  </folder>
+  <file name="index.html" crc="65662906" mt="1481903360880" redirect="true"/>
+</manifest>

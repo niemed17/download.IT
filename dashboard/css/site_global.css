@@ -224,6 +224,7 @@ a.nontext /* used to override default properties of 'a' tag */
   white-space: nowrap;
   float: left;
   clear: both;
+  color: #DFE1E6;
 
 
 }

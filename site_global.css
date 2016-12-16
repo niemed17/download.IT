@@ -224,6 +224,7 @@ a.nontext /* used to override default properties of 'a' tag */
   white-space: nowrap;
   float: left;
   clear: both;
+  color: #acacac;
 
 
 }
@@ -237,6 +238,7 @@ a.nontext /* used to override default properties of 'a' tag */
 {
 	display: inline;
 	float: left;
+	color: #373737;
 }
 
 .clearfix:after /* force a container to fit around floated items */

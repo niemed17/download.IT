@@ -9,6 +9,7 @@
 	background-color: #FFFFFF;
 }
 
+
 #page
 {
 	z-index: 1;
@@ -42,6 +43,10 @@
 	margin-right: -10000px;
 	margin-top: 17px;
 	left: 309px;
+	font-size: 18px;
+	font-weight: 600;
+	color: #373737;
+	
 }
 
 #u187
@@ -64,6 +69,10 @@
 	margin-right: -10000px;
 	margin-top: 17px;
 	left: 774px;
+	font-size: 18px;
+	font-weight: 600;
+	color: #373737;
+
 }
 
 #u193
@@ -112,6 +121,9 @@
 	margin-right: -10000px;
 	margin-top: 35px;
 	left: 309px;
+	font-size: 18px;
+	font-weight: 600;
+	color: #373737;
 }
 
 #u102
@@ -190,6 +202,10 @@
 	margin-right: -10000px;
 	margin-top: 83px;
 	left: 210px;
+	font-size: 18px;
+	font-weight: 500;
+	color: #373737;
+}
 }
 
 #u101
